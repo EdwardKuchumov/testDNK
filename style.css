@@ -1,0 +1,101 @@
+*{margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color: transparent;scroll-behavior: smooth;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+/*--------------------*/
+
+
+.wrapper {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    margin: 0 auto;
+}
+h1{
+    font-size: 20pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+h2{
+    padding: 100px 0;
+    font-weight: 400;
+    font-size: 20pt;
+}
+.questions {
+    max-width: 770px;
+    margin: 0 auto;
+}
+.questions__list{
+
+}
+.questions__item{
+    padding-bottom: 50px;
+}
+.questions__head{
+    background-color: #fff2cc;
+    font-weight: 700;
+
+
+}
+.questions__img{
+
+}
+.questions__response{
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+.response_1,
+.response_2,
+.response_3,
+.response_4 {
+    position: relative;
+    padding: 5pt 5pt 5pt 5pt;
+    border: 1px solid#000;
+    margin-top: 20px;
+}
+.response_1::after,
+.response_2::after,
+.response_3::after,
+.response_4::after {
+    content: 'ТВОЙ ОТВЕТ к вопросу №1:';
+    position: absolute;
+    left: -35px;
+    top: -18px;
+    font-size: 11pt;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.response_2::after {
+    content: 'ТВОЙ ОТВЕТ к вопросу №2:';
+
+}
+.response_3::after {
+    content: 'ТВОЙ ОТВЕТ к вопросу №3:';
+
+}
+.response_4::after {
+    content: 'ТВОЙ ОТВЕТ к вопросу №4:';
+    left: 0px;
+    top: -18px;
+    
+}
+
+
+img{
+    padding-bottom: 2px;
+    width: 100%;
+}
